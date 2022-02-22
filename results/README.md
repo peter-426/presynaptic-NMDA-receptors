@@ -6,7 +6,7 @@ See Figure in McGuinness et al., Presynaptic NMDARs in the Hippocampus Facilitat
 
 Facilitation is nonexistent at 1 Hz, strong at 5 Hz, and weak at 20 Hz.   Conditions: Black=control, Gray=NMDA receptors blocked.  
 
-Simulation results when preNMDARs were closer than VGCCs to the docked vesicle. 
+
 
 Conditions: Blue=control, Red=NMDA receptors blocked. 
 
@@ -22,7 +22,13 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 <br>
 <br>
 
+
 TO DO: simulation results depend on the distance of preNMDARs and VGCCs from the docked vesicle.   
+
+<list>
+<li>when preNMDARs were closer than VGCCs to the docked vesicle. 
+<li>when preNMDARs were farther than VGCCs from the docked vesicle. 
+</list>
 
 Conditions: Blue=control, Red=NMDA receptors blocked.
 
