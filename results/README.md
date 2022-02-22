@@ -12,11 +12,11 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 
 <table>
 <td text-align:center >
-<img src=./2010-sensor-mcG2010-f10.png width=400 > 
-Image: McGuinness et al., 2010.
+<img src=./2010-sensor-mcG2010-f10.png width=400 > <br>
+&nbsp; &nbsp; &nbsp; &nbsp; Image: McGuinness et al., 2010.
 <td text-align:center >
-<img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/2010-sensor-Hill.png  width=600 > 
-Simulation
+<img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/2010-sensor-Hill.png  width=600 > <br>
+&nbsp; &nbsp; &nbsp; &nbsp; Simulation
 </td>	
 <!-- <td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/1000-sensor-Hill.png  width=500 > </td>
 <tr>
@@ -35,13 +35,13 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 <table>
 <td style="text-align:center">
 <img src=./2000-nmdaR-closer.png width=800 > <br>
-Simulation results when preNMDARs were closer than VGCCs to the docked vesicle. 
+&nbsp; &nbsp; Simulation results when preNMDARs were closer than VGCCs to the docked vesicle. 
 </td>
 <tr>
 
 <td style="text-align:center">
 <img src=./2000-nmdaR-farther.png width=800 > <br>
-Simulation results when preNMDARs were farther than VGCCs from the docked vesicle. 
+&nbsp; &nbsp; Simulation results when preNMDARs were farther than VGCCs from the docked vesicle. 
 </td>
 </tr>
 </table>
