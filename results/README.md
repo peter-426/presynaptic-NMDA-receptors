@@ -11,11 +11,12 @@ Facilitation is nonexistent at 1 Hz, strong at 5 Hz, and weak at 20 Hz.   Condit
 Conditions: Blue=control, Red=NMDA receptors blocked. 
 
 <table>
-<td style="text-align:center">
-<img src=./2010-sensor-mcG2010-f10.png width=400 > <br>
+<td text-align:center >
+<img src=./2010-sensor-mcG2010-f10.png width=400 > 
 Image: McGuinness et al., 2010.
-<td text-align:center ><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/2010-sensor-Hill.png  width=600 > 
-simulation
+<td text-align:center >
+<img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/2010-sensor-Hill.png  width=600 > 
+Simulation
 </td>	
 <!-- <td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/1000-sensor-Hill.png  width=500 > </td>
 <tr>
