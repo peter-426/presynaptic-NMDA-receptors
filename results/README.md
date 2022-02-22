@@ -32,4 +32,19 @@ TO DO: simulation results depend on the distance of preNMDARs and VGCCs from the
 
 Conditions: Blue=control, Red=NMDA receptors blocked.
 
+<textarea rows="4" cols="50">
+Simulation results when preNMDARs were closer than VGCCs to the docked vesicle.  Conditions: Blue=control, Red=NMDA receptors blocked. 
+</textarea> 
+<br>
+<img src=./2000-nmdaR-closer.png > 
+
+<br><br>
+
+<textarea rows="4" cols="50">
+Simulation results when preNMDARs were farther than VGCCs from the docked vesicle.   Conditions: Blue=control, Red=NMDA receptors blocked.
+</textarea> 
+<br>
+<img src=./2000-nmdaR-farther.png >
+
+
 
