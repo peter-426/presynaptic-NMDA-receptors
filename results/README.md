@@ -41,6 +41,8 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 <br>
 <br>
 <td style="text-align:center">
+<br>
+<br>
 <img src=./2000-nmdaR-farther.png width=800 > <br>
 &nbsp; &nbsp;&nbsp; &nbsp; Simulation results when preNMDARs were farther than VGCCs from the docked vesicle. 
 </td>
