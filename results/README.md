@@ -12,9 +12,9 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 
 <table>
 <td>
-<img src=./2010-sensor-mcG2010-f10.png width=500 > <br>
+<img src=./2010-sensor-mcG2010-f10.png width=400 > <br>
 Image: McGuinness et al., 2010.
-<td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/2010-sensor-Hill.png  width=500 > <br>
+<td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/2010-sensor-Hill.png  width=600 > <br>
 simulation
 </td>	
 <!-- <td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/1000-sensor-Hill.png  width=500 > </td>
@@ -30,15 +30,21 @@ simulation
 
 Facilitation depends on the distance of preNMDARs and VGCCs from the docked vesicle. <br>
 Conditions: Blue=control, Red=NMDA receptors blocked.
-<br><br>
+<br>
+<table>
+<td>
+<img src=./2000-nmdaR-closer.png width=800 > <br>
 Simulation results when preNMDARs were closer than VGCCs to the docked vesicle. 
-<br>
-<img src=./2000-nmdaR-closer.png width=800 > 
+</td>
+<tr>
 
-<br><br>
+<td>
+<img src=./2000-nmdaR-farther.png width=800 > <br>
 Simulation results when preNMDARs were farther than VGCCs from the docked vesicle. 
-<br>
-<img src=./2000-nmdaR-farther.png width=800 >
+</td>
+</tr>
+</table>
+
 
 
 
