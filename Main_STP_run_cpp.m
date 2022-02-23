@@ -1,6 +1,8 @@
 %
 % Main_STP_run_cpp.m
 %
+% author: peter-426
+%
 
 % This Matlab script uses the "system" command to run the STP model.
 % The model is implemented in the AN_STP.cpp file, which is compiled by 
@@ -13,11 +15,12 @@
 clear;
 %close all;
 clc;
-%------------------
+
 disp(' ... running ...');
+
+
 s_model=1;
 
-%------------------
 if s_model == 1
    sensor_model = 'Hill';
 elseif s_model==2
@@ -32,15 +35,13 @@ end
 
 linux = 1;  % else Windows
 
-% from cmd line:$ g++ -w Main.cpp ./lib/*.h -DHill -I lib/ 
+% compile from cmd line:$ g++ -w Main.cpp ./lib/*.h -DHill -I lib/ 
 
 if (linux==1) 
     cmd_line=sprintf('g++ -w Main.cpp lib/*.cpp -D%s -I lib/', sensor_model);
     prog_cpp='./a.out';  
 else 
     return
-    %cmd_line=sprintf('c:\MinGW\bin\gcc.exe -w Main.cpp -D%s -I lib/', sensor_model);
-    %prog_cpp='a.exe';
 end
 
 fprintf(cmd_line);

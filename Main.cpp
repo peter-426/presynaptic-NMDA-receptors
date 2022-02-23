@@ -2,6 +2,9 @@
 // C++ simulation code for presynatic NMDA receptors and short-term 
 // plasticity at the hippocampal SC-CA1 synapse. 
 //
+// author: peter-426
+//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -14,54 +17,16 @@
 //using namespace std;
 
 // g++ -DNDEBG ... to turn off assertions
-// g++ -w Main.cpp -DHill -I include/
-// g++ -w Main.cpp lib/*.cpp -DHill -I lib/  if putting implementation in lib
+// g++ -w Main.cpp lib/*.cpp -DHill -I lib/  i
 
 static constexpr double PI=M_PI;  // use Pi defined in math.h
 
-//#include "utilities.h";
 
-// #ifdef Hill
-// #include "vesicles_hill.h";  
-// #endif 
-// 
-// #ifdef Markov
-// #include "vesicles_markov.h"  // original matrix version
-// #endif 
-// 
-// #ifdef Markov6
-// #include "vesicles_markov_6.h"
-// #endif 
-// 
-// #ifdef Allosteric
-// #include "vesicles_allosteric.h"
-// #endif 
-
-// #include "astrocyte.h";
-// #include "astrocyte_receptors.h";
-
-// #include "er_ip3_receptor.h";
-// #include "er_ryr_receptor.h";
-// #include "er.h";
-
-// #include "bouton_receptors.h";
-// #include "bouton.h";
-// 
-// #include "save.h";
 #include "score.h";
-
-
 #include "simulation.h";
-//#include "fit.h"
-
-
-
 
 int main(int argc, char* argv[])
-{
-//   clock_t t1,t2;
-//   t1=clock();
-   
+{  
    // struct Ex contains simulation parameters for experiment
    EX ex, optimal;  // experimental setup
    
@@ -78,12 +43,12 @@ int main(int argc, char* argv[])
    }
    else
    {  
-     isi = atof(argv[1]);
+     isi     = atof(argv[1]);
      seconds = atof(argv[2]);
      trials  = atof(argv[3]);
      
-     AP5 = atoi(argv[4]);  // 0 or 1,  off or on
-     RyR = atoi(argv[5]);
+     AP5  = atoi(argv[4]);  // 0 or 1,  off or on
+     RyR  = atoi(argv[5]);
      astro=atoi(argv[6]);
    } 
    
@@ -150,10 +115,7 @@ int main(int argc, char* argv[])
 //    }
      
    printf("----------------------------------------\n");
-   printf("\n         Simulation done.\n");
-//   t2=clock();
-//   float diff ((float) t2-(float) t1);
-//   printf("time= %f \n", diff/CLOCKS_PER_SEC);
+   printf("\n    Simulation done.    \n");
    printf("----------------------------------------\n");
             
    return 0;
