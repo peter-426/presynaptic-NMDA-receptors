@@ -4,33 +4,33 @@ function [] = Main_STP_bar(sensor)
 
 % sensor='XXX';
 
-B.pr_1HZ = load('csv/pr1HZ.csv');
-B.prBLOCKER_1HZ = load('csv/prBLOCKER1HZ.csv');
+B.pr_1HZ = load('csv/pr1Hz.csv');
+B.prBLOCKER_1HZ = load('csv/prBLOCKER1Hz.csv');
 
-B.pr_5HZ = load('csv/pr5HZ.csv');
-B.prBLOCKER_5HZ = load('csv/prBLOCKER5HZ.csv');
+B.pr_5HZ = load('csv/pr5Hz.csv');
+B.prBLOCKER_5HZ = load('csv/prBLOCKER5Hz.csv');
 
-B.pr_20HZ = load('csv/pr20HZ.csv');
-B.prBLOCKER_20HZ = load('csv/prBLOCKER20HZ.csv');
+B.pr_20HZ = load('csv/pr20Hz.csv');
+B.prBLOCKER_20HZ = load('csv/prBLOCKER20Hz.csv');
 
-B.pr_50HZ = load('csv/pr50HZ.csv');
-B.prBLOCKER_50HZ = load('csv/prBLOCKER50HZ.csv');
+B.pr_50HZ = load('csv/pr50Hz.csv');
+B.prBLOCKER_50HZ = load('csv/prBLOCKER50Hz.csv');
 
 
-B.pr_1HZ_raw = load('csv/pr1HZ_raw.csv');
-B.prBLOCKER_1HZ_raw = load('csv/prBLOCKER1HZ_raw.csv');
+B.pr_1HZ_raw = load('csv/pr1Hz_raw.csv');
+B.prBLOCKER_1HZ_raw = load('csv/prBLOCKER1Hz_raw.csv');
 
-B.pr_5HZ_raw = load('csv/pr5HZ_raw.csv');
-B.prBLOCKER_5HZ_raw = load('csv/prBLOCKER5HZ_raw.csv');
+B.pr_5HZ_raw = load('csv/pr5Hz_raw.csv');
+B.prBLOCKER_5HZ_raw = load('csv/prBLOCKER5Hz_raw.csv');
 
-B.pr_10HZ_raw = load('csv/pr10HZ_raw.csv');
-B.prBLOCKER_10HZ_raw = load('csv/prBLOCKER10HZ_raw.csv'); 
+B.pr_10HZ_raw = load('csv/pr10Hz_raw.csv');
+B.prBLOCKER_10HZ_raw = load('csv/prBLOCKER10Hz_raw.csv'); 
 
-B.pr_20HZ_raw = load('csv/pr20HZ_raw.csv');
-B.prBLOCKER_20HZ_raw = load('csv/prBLOCKER20HZ_raw.csv');
+B.pr_20HZ_raw = load('csv/pr20Hz_raw.csv');
+B.prBLOCKER_20HZ_raw = load('csv/prBLOCKER20Hz_raw.csv');
 
-B.pr_50HZ_raw = load('csv/pr50HZ_raw.csv');
-B.prBLOCKER_50HZ_raw = load('csv/prBLOCKER50HZ_raw.csv');
+B.pr_50HZ_raw = load('csv/pr50Hz_raw.csv');
+B.prBLOCKER_50HZ_raw = load('csv/prBLOCKER50Hz_raw.csv');
 
 fsz=10;
 
@@ -46,6 +46,7 @@ fprintf('\n Mean Pr for 1st spike at 1,5,20 Hz: ACSF %0.2f,  %0.2f ,  %0.2f \n',
 
 %%%%%%%%%%%%%%%%%%   2010   %%%%%%%%%%%%%%%%%%
 h1=figure(2010);
+h1.Position = [100 200 800 600];
 clf;
 hold on;
 
@@ -61,7 +62,7 @@ sgtitle({mainTitle ' '  ' '});
 %%%%%%%%%%%%%%%%%%%% 1 Hz %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 subplot(3,1,1);
 hold on;  grid on;
-t=title('1 Hz,  (1000 isi)');
+t=title('1 Hz');
 set(t, 'FontSize', fsz);
 bar_handle=bar(1:length(B.pr_1HZ),[B.pr_1HZ' B.prBLOCKER_1HZ'],  'EdgeColor','none');
 set(bar_handle(1),'FaceColor',[0,0,1])
@@ -80,7 +81,7 @@ subplot(3,1,2);
 % p(2) = p(2) - 0.02;
 % set(h, 'position', p);
 grid on;   hold on;
-t=title('5 Hz,  (200 isi)');
+t=title('5 Hz');
 set(t, 'FontSize', fsz);
 
 bar_handle=bar(1:length(B.pr_5HZ),[B.pr_5HZ' B.prBLOCKER_5HZ'],  'EdgeColor','none');
@@ -100,11 +101,11 @@ subplot(3,1,3);
 % p(2) = p(2) - 0.055;
 % set(h, 'position', p);
 hold on; grid on;
-t=title('20 Hz,  (50 isi)');
+t=title('20 Hz');
 set(t, 'FontSize', fsz);
 bar_handle=bar(1:length(B.pr_20HZ),[B.pr_20HZ' B.prBLOCKER_20HZ'],  'EdgeColor','none');
-set(bar_handle(1),'FaceColor',[0,0,1])
-set(bar_handle(2),'FaceColor',[1,0,0])
+set(bar_handle(1),'FaceColor',[0,0,1]);
+set(bar_handle(2),'FaceColor',[1,0,0]);
 
 ylabel('Normalised Pr'); 
 % ylim([0 1]);
@@ -118,6 +119,7 @@ xlabel('Spike number');
 %%%%%%%%%%%%%%%%%%   2000   %%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 h2=figure(2000);
+h2.Position = [100 200 800 600];
 clf;
 
 mainTitle = sprintf('%s Calcium Sensor Model', sensor);
@@ -132,12 +134,12 @@ sgtitle({mainTitle ' '  ' '});
 %%%%%%%%%%%%%%%%%%%% 1 Hz 
 subplot(3,3,1);
 hold on;  grid on;
-t=title('1 Hz,  (1000 isi)');
+t=title('1 Hz');
 set(t, 'FontSize', fsz);
 
 bar_handle=bar(1:length(B.pr_1HZ),[B.pr_1HZ' B.prBLOCKER_1HZ'],  'EdgeColor','none');
-set(bar_handle(1),'FaceColor',[0,0,1])
-set(bar_handle(2),'FaceColor',[1,0,0])
+set(bar_handle(1),'FaceColor',[0,0,1]);
+set(bar_handle(2),'FaceColor',[1,0,0]);
 
 ylabel('Normalised Pr'); 
 % ylim([0 1]);
@@ -154,7 +156,7 @@ subplot(3,3,2);
 % set(h, 'position', p);
 
 grid on;   hold on;
-t=title('5 Hz,  (200 isi)');
+t=title('5 Hz');
 set(t, 'FontSize', fsz);
 
 bar_handle=bar(1:length(B.pr_5HZ),[B.pr_5HZ' B.prBLOCKER_5HZ'],  'EdgeColor','none');
@@ -176,7 +178,7 @@ subplot(3,3,3);
 % set(h, 'position', p);
 
 hold on; grid on;
-t=title('20 Hz,  (50 isi)');
+t=title('20 Hz');
 set(t, 'FontSize', fsz);
 
 bar_handle=bar(1:length(B.pr_20HZ),[B.pr_20HZ' B.prBLOCKER_20HZ'],  'EdgeColor','none');
@@ -271,11 +273,8 @@ xlabel('Hz');
 %ylim([0 1]);
 ylim([0 400]);
 
-
 stdErrorPr20HZ=std(B.pr_20HZ(2:end))/mean(B.pr_20HZ(2:end));
 stdErrorPrBLOCKER20HZ=std(B.prBLOCKER_20HZ(2:end))/mean(B.prBLOCKER_20HZ(2:end));
-
-
 
 %%%%%%%%%%%%%%%%%%%%  Mean Pr for spikes 1 to n.
 subplot(3,3,6);

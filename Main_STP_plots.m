@@ -5,9 +5,12 @@ function [] = Main_STP_plots(isi, ex, sensor)
 % isi=99;
 % ex='test';
 % sensor = 'Test';
-h=figure(isi);
+hertz=fix(1000/isi);
+
+h=figure(hertz);
+h.Position = [100 200 800 600];
 clf;
-mainTitle = sprintf('%d isi, %s, %s Calcium Sensor', isi, ex, sensor);
+mainTitle = sprintf('%d Hz, %s, %s Calcium Sensor', hertz, ex, sensor);
 
 % annotation('textbox', [0 0.9 1 0.1], ...
 %     'String', mainTitle, ...
@@ -34,7 +37,6 @@ B.ca_md_BLOCKER = load('csv/b_ca_MD_BLOCKER.csv');
 % B.ca_md_vgcc  = load('csv/b_ca_MD_vgcc.csv');
 % B.ca_md_ryr   = load('csv/b_ca_MD_ryr.csv');
 
-
 B.ca_ryr = load('csv/b_ca_RyR.csv');
 B.cer = load('csv/b_cer.csv');
 
@@ -52,9 +54,9 @@ B.ves.Prel_BLOCKER = load('csv/b_ves_P_release_BLOCKER.csv');
 
 FREQ = fix(1000/isi);
 
-file = sprintf('csv/pr%dHZ_raw.csv', FREQ);
+file = sprintf('./csv/pr%dHz_raw.csv', FREQ);
 B.pr_mean = load(file);
-file = sprintf('csv/prBLOCKER%dHZ_raw.csv', FREQ);
+file = sprintf('./csv/prBLOCKER%dHz_raw.csv', FREQ);
 B.prBLOCKER_mean = load(file);
 
 fsz = 8;      % Fontsize
@@ -178,6 +180,8 @@ grid on;
 subplot(4,3,12);   hold on;
 t=title('Mean For Each Spike'); 
 set(t, 'FontSize', fsz);
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 bar_handle=bar(1:length(B.pr),[B.pr' B.prBLOCKER'],  'EdgeColor','none');
 set(bar_handle(1),'FaceColor',[0,0,1])
