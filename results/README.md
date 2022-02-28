@@ -49,6 +49,28 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 </tr>
 </table>
 
+Facilitation depends on the distance of preNMDARs and VGCCs from the docked vesicle. <br>
+Conditions: Blue=control, Red=NMDA receptors blocked.
+<br>
+<table>
+<td style="text-align:center">
+<img src=./5Hz-sensor-Hill-astro.png width=800 > <br>
+&nbsp; &nbsp;&nbsp; &nbsp; The astrocyte operates on a slower time scale. 
+</td>
+<tr>
+<br>
+<br>
+<td style="text-align:center">
+<br>
+<br>
+     &nsbp <br>
+&nbsp; &nbsp;&nbsp; &nbsp; 
+</td>
+</tr>
+</table>
+
+
+
 
 
 
