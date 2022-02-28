@@ -9,7 +9,6 @@ See Figure in McGuinness et al., Presynaptic NMDARs in the Hippocampus Facilitat
 <br>
 <br>
 <br>
-Facilitation is nonexistent at 1 Hz, strong at 5 Hz, and weak at 20 Hz.   Conditions: Black=control, Gray=NMDA receptors blocked.  
 <table>
 <td text-align:center >
 <img src=./2010-sensor-mcG2010-f10.png width=400 > <br>
@@ -23,14 +22,12 @@ Facilitation is nonexistent at 1 Hz, strong at 5 Hz, and weak at 20 Hz.   Condit
 <td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/200-sensor-Hill.png  width=500 > </td>
 <td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/50-sensor-Hill.png  width=500 > </td> -->
 </table>
-
+Facilitation is nonexistent at 1 Hz, strong at 5 Hz, and weak at 20 Hz.  <br>
+Conditions: Black=control, Gray=NMDA receptors blocked.  
 <hr>
 
 <br>
 <br>
-<br>
-Facilitation depends on the distance of preNMDARs and VGCCs from the docked vesicle. <br>
-Conditions: Blue=control, Red=NMDA receptors blocked.
 <br>
 <table>
 <td style="text-align:center">
@@ -48,18 +45,17 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 </td>
 </tr>
 </table>
-
+Facilitation depends on the distance of preNMDARs and VGCCs from the docked vesicle. <br>
+Conditions: Blue=control, Red=NMDA receptors blocked.
 <hr>
 
 <br>
 <br>
 <br>
-The astrocyte is too slow to modulate neuronal information processing that occurs on a time scale of milliseconds.
-<br>
 <table>
 <td style="text-align:center">
 <img src=./5Hz-sensor-Hill-astro.png width=800 > <br>
-&nbsp; &nbsp;&nbsp; &nbsp; The astrocyte operates on a time scale of seconds. 
+&nbsp; &nbsp;&nbsp; &nbsp;  
 </td>
 <tr>
 <br>
@@ -72,8 +68,11 @@ The astrocyte is too slow to modulate neuronal information processing that occur
 </td>
 </tr>
 </table>
-
-
+The astrocyte operates on a time scale of seconds and is too slow to modulate neuronal information processing that occurs on a time scale of milliseconds.
+<hr>
+<br>
+<br>
+<br>
 
 
 
