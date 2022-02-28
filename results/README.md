@@ -4,12 +4,12 @@ The SC-CA1 synapse and presynaptic NMDA receptors
 
 See Figure in McGuinness et al., Presynaptic NMDARs in the Hippocampus Facilitate Transmitter Release at Theta Frequency, Neuron, 2010.
 
+<hr>
+
+<br>
+<br>
+<br>
 Facilitation is nonexistent at 1 Hz, strong at 5 Hz, and weak at 20 Hz.   Conditions: Black=control, Gray=NMDA receptors blocked.  
-
-
-
-Conditions: Blue=control, Red=NMDA receptors blocked. 
-
 <table>
 <td text-align:center >
 <img src=./2010-sensor-mcG2010-f10.png width=400 > <br>
@@ -24,11 +24,11 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 <td><img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/results/50-sensor-Hill.png  width=500 > </td> -->
 </table>
 
-<br>
-<br>
-<br>
+<hr>
 
-
+<br>
+<br>
+<br>
 Facilitation depends on the distance of preNMDARs and VGCCs from the docked vesicle. <br>
 Conditions: Blue=control, Red=NMDA receptors blocked.
 <br>
@@ -49,13 +49,17 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 </tr>
 </table>
 
-Facilitation depends on the distance of preNMDARs and VGCCs from the docked vesicle. <br>
-Conditions: Blue=control, Red=NMDA receptors blocked.
+<hr>
+
+<br>
+<br>
+<br>
+The astrocyte is too slow to modulate neuronal information processing that occurs on a time scale of milliseconds.
 <br>
 <table>
 <td style="text-align:center">
 <img src=./5Hz-sensor-Hill-astro.png width=800 > <br>
-&nbsp; &nbsp;&nbsp; &nbsp; The astrocyte operates on a slower time scale. 
+&nbsp; &nbsp;&nbsp; &nbsp; The astrocyte operates on a time scale of seconds. 
 </td>
 <tr>
 <br>
@@ -63,7 +67,7 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 <td style="text-align:center">
 <br>
 <br>
-     &nsbp <br>
+&nsb<br>
 &nbsp; &nbsp;&nbsp; &nbsp; 
 </td>
 </tr>
