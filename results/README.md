@@ -57,16 +57,6 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 <img src=./5Hz-sensor-Hill-astro.png width=800 > <br>
 &nbsp; &nbsp;&nbsp; &nbsp;  
 </td>
-<tr>
-<br>
-<br>
-<td style="text-align:center">
-<br>
-<br>
-&nsb<br>
-&nbsp; &nbsp;&nbsp; &nbsp; 
-</td>
-</tr>
 </table>
 The astrocyte operates on a time scale of seconds and is too slow to modulate neuronal information processing that occurs on a time scale of milliseconds.
 <hr>
