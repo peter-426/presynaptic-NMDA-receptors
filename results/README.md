@@ -1,4 +1,4 @@
-<h3> the roles of presynaptic-NMDA-receptors </h3> 
+<h3> The role of presynaptic NMDA receptors </h3> 
 
 The SC-CA1 synapse and presynaptic NMDA receptors
 
