@@ -1,7 +1,8 @@
 # presynaptic-NMDA-receptors
 
-The SC-CA1 synapse and presynaptic NMDA receptors. 
+## The SC-CA1 synapse and presynaptic NMDA receptors.
+
+## The role of astrocytes at a tripartite synapse.
 
 
-<img src=https://github.com/peter-426/presynaptic-NMDA-receptors/blob/main/graphics/tripartite.jpg width=600 > <br>
-Image: Perea, et al., 2009, Tripartite synapses: astrocytes process and control synaptic information, Trends in Neurosciences.
+
