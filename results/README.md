@@ -52,6 +52,7 @@ Conditions: Blue=control, Red=NMDA receptors blocked.
 <br>
 <br>
 <br>
+<h3>The role of astrocytes</h3>
 <table>
 <td style="text-align:center">
 <img src=./5Hz-sensor-Hill-astro.png width=800 > <br>
